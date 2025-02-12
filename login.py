@@ -24,8 +24,7 @@ def register():
 
 def main():
     while true:
-        choice=input("do you want to(login/register)")
-        lower()
+        choice=input("do you want to(login/register)").lower()
         if choice=="login":
             login()
         elif choice=="register":
@@ -35,7 +34,7 @@ def main():
             break
         else:
             print("invalid choice pleasechoose'login','register',or,'exit'.")
-        if__name__=="__main__";
+if__name__=="__main__";
         mani()
         
     #sample user data
